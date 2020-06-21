@@ -1,8 +1,25 @@
+<!--
+방문자 기능: 구글 애널리틱스 이용해
+조건: Head 안에 코드 입력하래
+API 를 이용
+서버 돌려야 가능
+-->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Home Jacascript</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170192113-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170192113-1');
+</script>
+
   </head>
   <body>
     <header>
@@ -26,6 +43,7 @@
       </p>
 
     </article>
+
 
   </body>
 </html>

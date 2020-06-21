@@ -1,8 +1,32 @@
+<!--
+요청: 나 : Web browser = web Client
+응답: 서버: web server
+
+MAMP stack manager.osx실행시켜서 아파치 키고
+ HTDOCS http://127.0.0.1:8080/index.html 하면 작동 됌.
+하지만 아파치 끄면 작동이 안됌.
+
+내 아이피 확인한 다음에 만약 아이피가 192.20.20.20 이면
+http://192.20.20.20:8080/index.html 하면 휴대폰에서 접속 가능
+
+http : hyper Text transfer protocol
+
+HTML: hpyer text Markup Language
+  -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8"> <!-- 간혹 깨져보이는 이유는 utf-8로 안말들어졌기 때문--> 
+    <meta charset="utf-8"> <!-- 간혹 깨져보이는 이유는 utf-8로 안말들어졌기 때문-->
     <title>Home page</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170192113-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170192113-1');
+</script>
   </head>
   <body>
     <header>
